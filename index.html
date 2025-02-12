@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarun's AIBot - IT Learning Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <main class="main-content">
+            <div class="main-header">
+                <div class="title-container">
+                    <h1>Tarun's <span class="accent">AIBot</span></h1>
+                    <p class="subtitle">Your IT Learning Companion</p>
+                </div>
+            </div>
+            
+            <div class="chat-container">
+                <div id="chat-content" class="chat-content">
+                    <div class="message-group">
+                        <div class="bot-message">
+                            <div class="message-content">
+                                Hi! I'm your AI-powered IT Learning Assistant, created by Tarun. Feel free to ask me any questions about computers, programming, or technology. I'll explain everything in simple terms! 👋
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="input-container">
+                    <form id="chat-form" class="chat-form">
+                        <input 
+                            type="text" 
+                            id="user-input" 
+                            class="chat-input" 
+                            placeholder="Message Tarun's AIBot..."
+                            autocomplete="off"
+                            required
+                        >
+                        <button type="submit" class="send-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="send-icon">
+                                <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+                            </svg>
+                        </button>
+                    </form>
+                    <div class="input-footer">
+                        <p>Tarun's AIBot can make mistakes. Consider checking important information.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
